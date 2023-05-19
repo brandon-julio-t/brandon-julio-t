@@ -6,11 +6,11 @@
 [Twitter](https://twitter.com/brandon_julio_t),
 [LinkedIn](https://www.linkedin.com/in/brandonjuliothenaro/)
 
-[![GitHub stats](https://github-readme-stats.vercel.app/api?username=brandon-julio-t&count_private=true&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
+[![GitHub stats](https://github-readme-stats.vercel.app/api?username=brandon-julio-t&count_private=true&show_icons=true&theme=transparent)](https://github.com/anuraghazra/github-readme-stats)
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=brandon-julio-t)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=brandon-julio-t&theme=transparent)](https://github.com/anuraghazra/github-readme-stats)
 
-[![Leetcode stats](https://leetcode.card.workers.dev/brandon-julio-t?theme=default&font=source_code_pro&extension=activity)](https://leetcode.card.workers.dev/)
+[![Leetcode stats](https://leetcode.card.workers.dev/brandon-julio-t?theme=transparent&font=source_code_pro&extension=activity)](https://leetcode.card.workers.dev/)
 
 <!--
 **brandon-julio-t/brandon-julio-t** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
