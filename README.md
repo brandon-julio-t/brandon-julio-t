@@ -35,6 +35,7 @@ I'm a **Senior Software Engineer** at [Farmio](https://farmio.io) passionate abo
 
 - 🤖 **AI Initiatives:** Led development of Kokopilot and Chat Order AI Agent, achieving 70% productivity gains for analytics and 60% for customer service
 - 💰 **Cost Optimization:** Reduced AWS S3 storage by 48%, translating to ~50% cost savings
+- 🤖 **Opencode:** Contributor to [Opencode](https://github.com/brandon-julio-t/opencode) - an open source coding agent
 - 🌍 **Open Source:** Contributing to React documentation in Indonesian ([id.react.dev](https://id.react.dev))
 - ⚡ **Typing Speed:** 150+ WPM certified
 
@@ -72,42 +73,22 @@ I'm a **Senior Software Engineer** at [Farmio](https://farmio.io) passionate abo
 
 ---
 
-## 📌 Pinned Projects
+## 📌 Featured Projects
 
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/brandon-julio-t/t3-chat-clone">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=brandon-julio-t&repo=t3-chat-clone&theme=transparent" />
-      </a>
-      <br/>
-      <sub>LLM Chat UI cloneathon</sub>
-    </td>
-    <td align="center">
-      <a href="https://github.com/brandon-julio-t/mini-invoice">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=brandon-julio-t&repo=mini-invoice&theme=transparent" />
-      </a>
-      <br/>
-      <sub>Invoicing app for small business</sub>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/brandon-julio-t/slack-clone">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=brandon-julio-t&repo=slack-clone&theme=transparent" />
-      </a>
-      <br/>
-      <sub>Real-time messaging platform</sub>
-    </td>
-    <td align="center">
-      <a href="https://github.com/brandon-julio-t/decentralized-event-membership-management">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=brandon-julio-t&repo=decentralized-event-membership-management&theme=transparent" />
-      </a>
-      <br/>
-      <sub>Web3 event management dApp</sub>
-    </td>
-  </tr>
-</table>
+### 🤖 [Opencode](https://github.com/brandon-julio-t/opencode)
+The open source coding agent — actively contributing to make AI-powered coding accessible to everyone.
+
+### 💬 [T3 Chat Clone](https://github.com/brandon-julio-t/t3-chat-clone)
+The "cloneathon" to recreate LLM Chat UI (t3.chat, chatgpt.com, perplexity.com, claude.com, etc.)
+
+### 🧾 [Mini Invoice](https://github.com/brandon-julio-t/mini-invoice)
+Highly over-engineered invoicing mobile app for my mami. Feel free to use it for your own too.
+
+### 💬 [Slack Clone](https://github.com/brandon-julio-t/slack-clone)
+Replication of Slack's core features with a focus on real-time data communication.
+
+### ⛓️ [Web3 Event Management](https://github.com/brandon-julio-t/decentralized-event-membership-management)
+Decentralized event membership management dApp built with Solidity and Hardhat.
 
 ---
 
@@ -133,20 +114,6 @@ I'm happy to discuss and help with:
 - ✅ Ethereum Developer Bootcamp (Alchemy University)
 - ✅ Animations on the Web (Emil Kowalski)
 - ✅ FreeCodeCamp: JavaScript Algorithms, Front End Libraries, APIs & Microservices
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-[![GitHub stats](https://github-readme-stats.vercel.app/api?username=brandon-julio-t&count_private=true&show_icons=true&theme=transparent)](https://github.com/anuraghazra/github-readme-stats)
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=brandon-julio-t&theme=transparent&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
-
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=brandon-julio-t&theme=transparent)](https://git.io/streak-stats)
-
-</div>
 
 ---
 
