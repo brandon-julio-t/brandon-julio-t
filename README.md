@@ -16,7 +16,7 @@ I'm a **Senior Software Engineer** at [Farmio](https://farmio.io) passionate abo
 
 - 🔭 **Currently building:** Comprehensive ERP platform at Farmio with modules for order management, invoicing, payment reconciliation, inventory control, driver task management, and route planning
 - 🌱 **Learning:** AI agents & LLM applications, advanced animations on the web
-- 💻 **Side projects:** Tinkering with [animated components](https://brandonjuliothenaro.my.id/components) and contributing to [id.react.dev](https://id.react.dev)
+- 💻 **Side projects:** Tinkering with [animated components](https://brandonjuliothenaro.my.id/components), building small OSS fixes, and contributing to projects like [Opencode](https://github.com/anomalyco/opencode) and [id.react.dev](https://id.react.dev)
 - 💡 **Philosophy:** Pragmatic engineering with focus on delivering real business value
 
 ---
@@ -35,9 +35,20 @@ I'm a **Senior Software Engineer** at [Farmio](https://farmio.io) passionate abo
 
 - 🤖 **AI Initiatives:** Led development of Kokopilot and Chat Order AI Agent, achieving 70% productivity gains for analytics and 60% for customer service
 - 💰 **Cost Optimization:** Reduced AWS S3 storage by 48%, translating to ~50% cost savings
-- 🤖 **Opencode:** Contributor to [Opencode](https://github.com/brandon-julio-t/opencode) - an open source coding agent
-- 🌍 **Open Source:** Contributing to React documentation in Indonesian ([id.react.dev](https://id.react.dev))
+- 🤖 **Opencode:** Merged contribution to [Opencode](https://github.com/anomalyco/opencode/pull/13720) adding GeistMono Nerd Font as a selectable mono font across the app
+- 🌍 **React Indonesia Docs:** Merged contribution to [id.react.dev](https://github.com/reactjs/id.react.dev/pull/472) translating the "Updating Objects in State" page into Indonesian
+- 🎬 **Motion Primitives:** Merged fix in [motion-primitives](https://github.com/ibelick/motion-primitives/pull/146) for a missing `react-use-measure` registry dependency
+- 🎨 **Vague Theme:** Opened [vague-theme/vague#12](https://github.com/vague-theme/vague/issues/12) to contribute my `bat` theme into the Vague ecosystem
 - ⚡ **Typing Speed:** 150+ WPM certified
+
+---
+
+## 🌍 Open Source Contributions
+
+- [anomalyco/opencode#13720](https://github.com/anomalyco/opencode/pull/13720) - Added GeistMono Nerd Font to the app's mono font options, including settings integration and locale updates
+- [reactjs/id.react.dev#472](https://github.com/reactjs/id.react.dev/pull/472) - Contributed the initial Indonesian translation for the React docs page "Updating Objects in State"
+- [ibelick/motion-primitives#146](https://github.com/ibelick/motion-primitives/pull/146) - Fixed the shadcn registry setup so `react-use-measure` installs automatically for affected components
+- [vague-theme/vague#12](https://github.com/vague-theme/vague/issues/12) - Proposed transferring my `vague-bat` theme into the Vague org to expand the theme ecosystem to `bat` and `delta` users
 
 ---
 
