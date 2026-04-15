@@ -38,6 +38,7 @@ I'm a **Senior Software Engineer** at [Farmio](https://farmio.io) passionate abo
 - 🤖 **Opencode:** Merged contribution to [Opencode](https://github.com/anomalyco/opencode/pull/13720) adding GeistMono Nerd Font as a selectable mono font across the app
 - 🌍 **React Indonesia Docs:** Merged contribution to [id.react.dev](https://github.com/reactjs/id.react.dev/pull/472) translating the "Updating Objects in State" page into Indonesian
 - 🎬 **Motion Primitives:** Merged fix in [motion-primitives](https://github.com/ibelick/motion-primitives/pull/146) for a missing `react-use-measure` registry dependency
+- 🧠 **Convex:** Opened [issue #441](https://github.com/get-convex/convex-backend/issues/441) and follow-up [PR #442](https://github.com/get-convex/convex-backend/pull/442) to improve `convex dev --start` cleanup on `Ctrl+C` under `bun run`
 - 🎨 **Vague Theme:** Opened [vague-theme/vague#12](https://github.com/vague-theme/vague/issues/12) to contribute my `bat` theme into the Vague ecosystem
 - ⚡ **Typing Speed:** 150+ WPM certified
 
@@ -48,6 +49,7 @@ I'm a **Senior Software Engineer** at [Farmio](https://farmio.io) passionate abo
 - [anomalyco/opencode#13720](https://github.com/anomalyco/opencode/pull/13720) - Added GeistMono Nerd Font to the app's mono font options, including settings integration and locale updates
 - [reactjs/id.react.dev#472](https://github.com/reactjs/id.react.dev/pull/472) - Contributed the initial Indonesian translation for the React docs page "Updating Objects in State"
 - [ibelick/motion-primitives#146](https://github.com/ibelick/motion-primitives/pull/146) - Fixed the shadcn registry setup so `react-use-measure` installs automatically for affected components
+- [get-convex/convex-backend#441](https://github.com/get-convex/convex-backend/issues/441) and [#442](https://github.com/get-convex/convex-backend/pull/442) - Reported and proposed a fix for `convex dev --start` leaving `next dev --turbopack` running after `Ctrl+C` under `bun run`
 - [vague-theme/vague#12](https://github.com/vague-theme/vague/issues/12) - Proposed transferring my `vague-bat` theme into the Vague org to expand the theme ecosystem to `bat` and `delta` users
 
 ---
