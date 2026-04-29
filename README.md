@@ -21,15 +21,15 @@
 
 ## 🚢 What I Ship
 
-I lead and build software for messy real-world workflows: ERP platforms, financial operations, inventory systems, AI-assisted operations, internal tools, and customer-facing interfaces. I care about fast iteration, clean product behavior, data correctness, and systems that stay understandable after they reach production.
+I lead and build software for messy real-world workflows: ERP platforms, financial operations, inventory systems, AI-assisted operations, internal tools, and customer-facing portals. I care about fast iteration, clean product behavior, data correctness, and production systems that stay understandable after they scale.
 
-- 🧭 Lead technical ownership across Farmio's ERP platform, spanning order management, invoicing, payment reconciliation, inventory, driver tasks, and route planning.
-- 🤖 Led AI initiatives including an analytics assistant and a Chat Order AI Agent, with reported productivity gains of 70% for analytics work and 60% for customer service workflows.
-- ⚙️ Own pragmatic production improvements across product, infra, database, deployment, observability, and developer workflows.
-- 🧾 Design database flows around correctness first, including `SERIALIZABLE` transaction isolation where money, inventory, and reconciliation logic need hard guarantees.
+- 🏗️ Core builder of Farmio's product stack across ERP, backend services, portals, workers, deployment, and operational tooling.
+- 🧾 Design correctness-first database flows, including `SERIALIZABLE` transaction isolation for money, inventory, reconciliation, and other high-integrity workflows.
+- 🤖 Led AI product work including an analytics assistant and Chat Order AI Agent, with reported productivity gains of 70% for analytics work and 60% for customer service workflows.
+- 🔭 Own production hardening across health checks, observability, OpenTelemetry tracing, deploy scripts, and operator documentation.
+- 📄 Build business-critical document systems including invoice PDFs, credit-note workflows, font rendering fixes, retry/timeout handling, and regression coverage.
 - 💸 Reduced AWS S3 storage by 48%, translating to roughly 50% cost savings.
-- 🌱 Contribute practical fixes upstream when I hit real bugs in tools I use.
-- ⌨️ Certified 150+ WPM typist.
+- 🌍 Contribute upstream fixes to tools I use, including Convex, PostHog, Opencode, Motion Primitives, React docs, and Vague.
 
 ---
 
