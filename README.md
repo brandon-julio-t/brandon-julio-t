@@ -37,11 +37,11 @@ I lead and build software for messy real-world workflows: ERP platforms, financi
 
 | Project | Contribution | Status |
 | --- | --- | --- |
+| [get-convex/convex-backend#441](https://github.com/get-convex/convex-backend/issues/441) + [#442](https://github.com/get-convex/convex-backend/pull/442) | Reported and proposed a fix for `convex dev --start` cleanup behavior when launched through `bun run`. | 🛠️ Fix landed |
 | [PostHog/posthog#54002](https://github.com/PostHog/posthog/pull/54002) | Preserved Vercel AI OTel user, session, and function identifiers so LLM analytics attach to the right user/session. | ✅ Merged |
 | [anomalyco/opencode#13720](https://github.com/anomalyco/opencode/pull/13720) | Added GeistMono Nerd Font as a selectable mono font across app settings and locale strings. | ✅ Merged |
 | [ibelick/motion-primitives#146](https://github.com/ibelick/motion-primitives/pull/146) | Fixed shadcn registry metadata so `react-use-measure` installs automatically for affected components. | ✅ Merged |
 | [reactjs/id.react.dev#472](https://github.com/reactjs/id.react.dev/pull/472) | Contributed the initial Indonesian translation for React's "Updating Objects in State" docs page. | ✅ Merged |
-| [get-convex/convex-backend#441](https://github.com/get-convex/convex-backend/issues/441) + [#442](https://github.com/get-convex/convex-backend/pull/442) | Reported and proposed a fix for `convex dev --start` cleanup behavior when launched through `bun run`. | 🛠️ Fix landed |
 | [vague-theme/vague#12](https://github.com/vague-theme/vague/issues/12) | Transferred my [`vague-bat`](https://github.com/vague-theme/vague-bat) theme into the Vague ecosystem for `bat`, `delta`, and `lazygit` users. | 🎨 Transferred |
 
 ---
