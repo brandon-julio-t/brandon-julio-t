@@ -1,162 +1,111 @@
 <div align="center">
 
-# 👋 Hi, I'm Brandon Julio Thenaro
+# Brandon Julio Thenaro
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&width=435&lines=Senior+Software+Engineer;AI+%26+LLM+Enthusiast;Web3+Developer;Open+Source+Contributor)](https://git.io/typing-svg)
+<p>
+  <strong>Tech Lead at <a href="https://farmio.io">Farmio</a></strong><br>
+  Product-minded engineering lead focused on operational systems, AI workflows, data correctness, and polished web experiences.
+</p>
 
-[Website](https://brandonjuliothenaro.my.id) • [LinkedIn](https://www.linkedin.com/in/brandonjuliothenaro/) • [Twitter](https://twitter.com/brandon_julio_t) • [Instagram](https://www.instagram.com/brandon.julio.t/) • [CV](https://raw.githubusercontent.com/brandon-julio-t/curriculum-vitae/refs/heads/main/dist/Brandon_Julio_Thenaro_CV.pdf)
+<p>
+  <a href="https://brandonjuliothenaro.my.id">Website</a> ·
+  <a href="https://www.linkedin.com/in/brandonjuliothenaro/">LinkedIn</a> ·
+  <a href="https://twitter.com/brandon_julio_t">X / Twitter</a> ·
+  <a href="https://www.instagram.com/brandon.julio.t/">Instagram</a> ·
+  <a href="https://raw.githubusercontent.com/brandon-julio-t/curriculum-vitae/refs/heads/main/dist/Brandon_Julio_Thenaro_CV.pdf">CV</a>
+</p>
 
 </div>
 
 ---
 
-## 🚀 About Me
+## 🚢 What I Ship
 
-I'm a **Senior Software Engineer** at [Farmio](https://farmio.io) passionate about building polished UI/UX for web & mobile applications. Currently experimenting with AI to create product solutions that help businesses scale.
+I lead and build software for messy real-world workflows: ERP platforms, financial operations, inventory systems, AI-assisted operations, internal tools, and customer-facing interfaces. I care about fast iteration, clean product behavior, data correctness, and systems that stay understandable after they reach production.
 
-- 🔭 **Currently building:** Comprehensive ERP platform at Farmio with modules for order management, invoicing, payment reconciliation, inventory control, driver task management, and route planning
-- 🌱 **Learning:** AI agents & LLM applications, advanced animations on the web
-- 💻 **Side projects:** Tinkering with [animated components](https://brandonjuliothenaro.my.id/components), building small OSS fixes, and contributing to projects like [Opencode](https://github.com/anomalyco/opencode) and [id.react.dev](https://id.react.dev)
-- 💡 **Philosophy:** Pragmatic engineering with focus on delivering real business value
+- 🧭 Lead technical ownership across Farmio's ERP platform, spanning order management, invoicing, payment reconciliation, inventory, driver tasks, and route planning.
+- 🤖 Led AI initiatives including an analytics assistant and a Chat Order AI Agent, with reported productivity gains of 70% for analytics work and 60% for customer service workflows.
+- ⚙️ Own pragmatic production improvements across product, infra, database, deployment, observability, and developer workflows.
+- 🧾 Design database flows around correctness first, including `SERIALIZABLE` transaction isolation where money, inventory, and reconciliation logic need hard guarantees.
+- 💸 Reduced AWS S3 storage by 48%, translating to roughly 50% cost savings.
+- 🌱 Contribute practical fixes upstream when I hit real bugs in tools I use.
+- ⌨️ Certified 150+ WPM typist.
+
+---
+
+## 🌍 Open Source Highlights
+
+| Project | Contribution | Status |
+| --- | --- | --- |
+| [PostHog/posthog#54002](https://github.com/PostHog/posthog/pull/54002) | Preserved Vercel AI OTel user, session, and function identifiers so LLM analytics attach to the right user/session. | ✅ Merged |
+| [anomalyco/opencode#13720](https://github.com/anomalyco/opencode/pull/13720) | Added GeistMono Nerd Font as a selectable mono font across app settings and locale strings. | ✅ Merged |
+| [ibelick/motion-primitives#146](https://github.com/ibelick/motion-primitives/pull/146) | Fixed shadcn registry metadata so `react-use-measure` installs automatically for affected components. | ✅ Merged |
+| [reactjs/id.react.dev#472](https://github.com/reactjs/id.react.dev/pull/472) | Contributed the initial Indonesian translation for React's "Updating Objects in State" docs page. | ✅ Merged |
+| [get-convex/convex-backend#441](https://github.com/get-convex/convex-backend/issues/441) + [#442](https://github.com/get-convex/convex-backend/pull/442) | Reported and proposed a fix for `convex dev --start` cleanup behavior when launched through `bun run`. | 🛠️ Fix landed |
+| [vague-theme/vague#12](https://github.com/vague-theme/vague/issues/12) | Transferred my [`vague-bat`](https://github.com/vague-theme/vague-bat) theme into the Vague ecosystem for `bat`, `delta`, and `lazygit` users. | 🎨 Transferred |
+
+---
+
+## 🧩 Product Work
+
+| Area | Work |
+| --- | --- |
+| 🏭 Farmio ERP | Technical ownership across order management, invoicing, payment reconciliation, inventory control, driver tasking, and route planning. |
+| 🤖 AI workflows | Analytics assistant for business data exploration and Chat Order AI Agent for customer service operations. |
+| 🧾 Database correctness | Serializable transaction boundaries for financial and inventory workflows where consistency matters more than theoretical throughput. |
+| 💸 Cost optimization | AWS S3 storage cleanup that cut stored data by 48%. |
+| ✨ UI engineering | Animated components, dashboard surfaces, mobile-first workflows, and shadcn/Tailwind systems. |
+| ⚙️ Engineering systems | Deployment, health checks, observability, dependency maintenance, production docs, and technical standards. |
+| 🛠️ Developer tooling | Practical upstream fixes in AI/devtool ecosystems including PostHog, Opencode, Convex, and Motion Primitives. |
 
 ---
 
 ## 💼 Experience
 
 | Role | Company | Period |
-|------|---------|--------|
-| **Senior Software Engineer** | [Farmio](https://farmio.io) | 2024 - Present |
-| **Fullstack Engineer** | [BINUS University](https://binus.ac.id) R&D Team | 2020 - 2023 |
-| **Teaching Assistant** | [BINUS University](https://binus.ac.id) | 2020 - 2021 |
+| --- | --- | --- |
+| Tech Lead | [Farmio](https://farmio.io) | 2024 - Present |
+| Fullstack Engineer | [BINUS University](https://binus.ac.id) R&D Team | 2020 - 2023 |
+| Teaching Assistant | [BINUS University](https://binus.ac.id) | 2020 - 2021 |
 
 ---
 
-## 🏆 Key Achievements
+## 🛠️ Operating Range
 
-- 🤖 **AI Initiatives:** Led development of Kokopilot and Chat Order AI Agent, achieving 70% productivity gains for analytics and 60% for customer service
-- 💰 **Cost Optimization:** Reduced AWS S3 storage by 48%, translating to ~50% cost savings
-- 🤖 **Opencode:** Merged contribution to [Opencode](https://github.com/anomalyco/opencode/pull/13720) adding GeistMono Nerd Font as a selectable mono font across the app
-- 🌍 **React Indonesia Docs:** Merged contribution to [id.react.dev](https://github.com/reactjs/id.react.dev/pull/472) translating the "Updating Objects in State" page into Indonesian
-- 🎬 **Motion Primitives:** Merged fix in [motion-primitives](https://github.com/ibelick/motion-primitives/pull/146) for a missing `react-use-measure` registry dependency
-- 🧠 **Convex:** Opened [issue #441](https://github.com/get-convex/convex-backend/issues/441) and follow-up [PR #442](https://github.com/get-convex/convex-backend/pull/442) to improve `convex dev --start` cleanup on `Ctrl+C` under `bun run`
-- 📊 **PostHog:** Opened [PostHog/posthog#54002](https://github.com/PostHog/posthog/pull/54002) to preserve Vercel AI user and session identifiers in LLM analytics ingestion
-- 🎨 **Vague Theme:** Opened [vague-theme/vague#12](https://github.com/vague-theme/vague/issues/12) to contribute my `bat` theme into the Vague ecosystem
-- ⚡ **Typing Speed:** 150+ WPM certified
+- 🎨 **Frontend:** React, Next.js, TypeScript, Tailwind CSS, shadcn/ui, motion-heavy interfaces
+- 🧱 **Backend:** Node.js, Express, PostgreSQL, Redis, Prisma, transaction isolation, API design, background workflows
+- 🤖 **AI/LLM:** AI agents, chat apps, RAG patterns, OpenAI integrations, LLM analytics
+- ☁️ **Infra:** AWS, Docker, Vercel, CI/CD, cost optimization
+- 🧪 **Other:** Python, Go, PHP, Solidity, Ethereum
 
 ---
 
-## 🌍 Open Source Contributions
+## ✨ Selected Projects
 
-- [anomalyco/opencode#13720](https://github.com/anomalyco/opencode/pull/13720) - Added GeistMono Nerd Font to the app's mono font options, including settings integration and locale updates
-- [reactjs/id.react.dev#472](https://github.com/reactjs/id.react.dev/pull/472) - Contributed the initial Indonesian translation for the React docs page "Updating Objects in State"
-- [ibelick/motion-primitives#146](https://github.com/ibelick/motion-primitives/pull/146) - Fixed the shadcn registry setup so `react-use-measure` installs automatically for affected components
-- [get-convex/convex-backend#441](https://github.com/get-convex/convex-backend/issues/441) and [#442](https://github.com/get-convex/convex-backend/pull/442) - Reported and proposed a fix for `convex dev --start` leaving `next dev --turbopack` running after `Ctrl+C` under `bun run`
-- [PostHog/posthog#54002](https://github.com/PostHog/posthog/pull/54002) - Proposed and tested a fix for Vercel AI OTel ingestion so `posthog_distinct_id`, `$ai_session_id`, and `functionId` survive cleanup and LLM analytics events attach to the right user/session
-- [vague-theme/vague#12](https://github.com/vague-theme/vague/issues/12) - Proposed transferring my `vague-bat` theme into the Vague org to expand the theme ecosystem to `bat` and `delta` users
-
----
-
-## 🛠️ Tech Stack
-
-### Frontend
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![shadcn/ui](https://img.shields.io/badge/shadcn%2Fui-000000?style=for-the-badge&logo=shadcnui&logoColor=white)
-
-### Backend & Database
-![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white)
-
-### Cloud & DevOps
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)
-
-### Web3
-![Solidity](https://img.shields.io/badge/Solidity-e6e6e6?style=for-the-badge&logo=solidity&logoColor=black)
-![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=Ethereum&logoColor=white)
-
-### Other Languages
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-
----
-
-## 📌 Featured Projects
-
-### 🤖 [Opencode](https://github.com/brandon-julio-t/opencode)
-The open source coding agent — actively contributing to make AI-powered coding accessible to everyone.
-
-### 💬 [T3 Chat Clone](https://github.com/brandon-julio-t/t3-chat-clone)
-The "cloneathon" to recreate LLM Chat UI (t3.chat, chatgpt.com, perplexity.com, claude.com, etc.)
-
-### 🧾 [Mini Invoice](https://github.com/brandon-julio-t/mini-invoice)
-Highly over-engineered invoicing mobile app for my mami. Feel free to use it for your own too.
-
-### 💬 [Slack Clone](https://github.com/brandon-julio-t/slack-clone)
-Replication of Slack's core features with a focus on real-time data communication.
-
-### ⛓️ [Web3 Event Management](https://github.com/brandon-julio-t/decentralized-event-membership-management)
-Decentralized event membership management dApp built with Solidity and Hardhat.
-
----
-
-## 💬 Ask Me Anything (AMA)
-
-I'm happy to discuss and help with:
-
-- **Frontend Development** — React, Next.js, TypeScript, UI/UX design, component libraries (shadcn/ui, Tailwind)
-- **AI/LLM Integration** — Building AI agents, chat applications, RAG pipelines, OpenAI integration
-- **Web3/Blockchain** — Solidity smart contracts, Ethereum development, dApp architecture
-- **Cloud Architecture** — AWS services, serverless, cost optimization strategies
-- **Backend Development** — API design, database optimization, caching strategies
-- **Career Growth** — Transitioning from junior to senior engineer, technical leadership
-- **Bitcoin** — Trading indicators, quantitative analysis, market insights
-
-**Want to chat?** [Open an issue](https://github.com/brandon-julio-t/brandon-julio-t/issues) with your question! I typically respond within 24-48 hours.
+- 🎛️ [Animated components](https://brandonjuliothenaro.my.id/components) - web animation experiments and UI component work.
+- 💬 [T3 Chat Clone](https://github.com/brandon-julio-t/t3-chat-clone) - LLM chat UI cloneathon across modern chat product patterns.
+- 🧾 [Mini Invoice](https://github.com/brandon-julio-t/mini-invoice) - mobile invoicing app built for a real family workflow.
+- ⚡ [Slack Clone](https://github.com/brandon-julio-t/slack-clone) - real-time collaboration app exploring Slack-style product behavior.
+- ⛓️ [Web3 Event Management](https://github.com/brandon-julio-t/decentralized-event-membership-management) - Solidity and Hardhat dApp for decentralized event membership.
 
 ---
 
 ## 📜 Certifications
 
-- ✅ AWS Certified Cloud Practitioner
-- ✅ Ethereum Developer Bootcamp (Alchemy University)
-- ✅ Animations on the Web (Emil Kowalski)
-- ✅ FreeCodeCamp: JavaScript Algorithms, Front End Libraries, APIs & Microservices
+- ☁️ AWS Certified Cloud Practitioner
+- ⛓️ Ethereum Developer Bootcamp, Alchemy University
+- ✨ Animations on the Web, Emil Kowalski
+- 🧩 freeCodeCamp: JavaScript Algorithms, Front End Libraries, APIs & Microservices
 
 ---
 
 <div align="center">
 
-### 📫 Connect With Me
+**Good software earns trust by making the next action obvious.**
 
-[![Website](https://img.shields.io/badge/Website-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://brandonjuliothenaro.my.id)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/brandonjuliothenaro/)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/brandon_julio_t)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/brandon.julio.t/)
-[![CV](https://img.shields.io/badge/CV-4285F4?style=for-the-badge&logo=read-the-docs&logoColor=white)](https://raw.githubusercontent.com/brandon-julio-t/curriculum-vitae/refs/heads/main/dist/Brandon_Julio_Thenaro_CV.pdf)
-
-*"Building polished products that solve real problems"*
+📫 Hit me up on
+[LinkedIn](https://www.linkedin.com/in/brandonjuliothenaro/) ·
+[X / Twitter](https://twitter.com/brandon_julio_t) ·
+[Instagram](https://www.instagram.com/brandon.julio.t/)
 
 </div>
-
-<!--
-**brandon-julio-t/brandon-julio-t** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
