@@ -43,7 +43,7 @@ I lead and build software for messy real-world workflows: ERP platforms, financi
 | [kitlangton/ghui](https://github.com/kitlangton/ghui/compare/v0.4.3...v0.4.4) | Opened [#7](https://github.com/kitlangton/ghui/pull/7) for the Vague theme and [#8](https://github.com/kitlangton/ghui/pull/8) for picker-modal wraparound navigation; both PRs were closed after the work shipped in `v0.4.4` via upstream commits [`8e357eeffc3bff6870553a90a5cdb137567c0a61`](https://github.com/kitlangton/ghui/commit/8e357eeffc3bff6870553a90a5cdb137567c0a61) and [`5c5576db79928e0102166b04cd312d16831ad2c8`](https://github.com/kitlangton/ghui/commit/5c5576db79928e0102166b04cd312d16831ad2c8). | 🚀 Shipped in [`v0.4.4`](https://github.com/kitlangton/ghui/releases/tag/v0.4.4) |
 | [ibelick/motion-primitives#146](https://github.com/ibelick/motion-primitives/pull/146) | Fixed shadcn registry metadata so `react-use-measure` installs automatically for affected components. | ✅ Merged |
 | [reactjs/id.react.dev#472](https://github.com/reactjs/id.react.dev/pull/472) | Contributed the initial Indonesian translation for React's "Updating Objects in State" docs page. | ✅ Merged |
-| [vague-theme/vague#12](https://github.com/vague-theme/vague/issues/12) | Transferred my [`vague-bat`](https://github.com/vague-theme/vague-bat) theme into the Vague ecosystem for `bat`, `delta`, and `lazygit` users. | 🎨 Transferred |
+| [vague-theme/vague#8](https://github.com/vague-theme/vague/issues/8) + [#12](https://github.com/vague-theme/vague/issues/12) | Transferred my [`vague-opencode`](https://github.com/vague-theme/vague-opencode) and [`vague-bat`](https://github.com/vague-theme/vague-bat) themes into the Vague ecosystem for OpenCode, `bat`, `delta`, and `lazygit` users. | 🎨 Transferred |
 
 ---
 
