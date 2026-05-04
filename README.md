@@ -37,7 +37,7 @@ I lead and build software for messy real-world workflows: ERP platforms, financi
 
 | Project | Contribution | Status |
 | --- | --- | --- |
-| [get-convex/convex-backend#441](https://github.com/get-convex/convex-backend/issues/441) + [#442](https://github.com/get-convex/convex-backend/pull/442) | Reported and proposed a fix for `convex dev --start` cleanup behavior when launched through `bun run`. | 🛠️ Fix landed |
+| [get-convex/convex-backend#441](https://github.com/get-convex/convex-backend/issues/441) + [#442](https://github.com/get-convex/convex-backend/pull/442) | Reported and proposed a fix for `convex dev --start` cleanup behavior when launched through `bun run`. | 🛠️ Shipped in [`convex v1.36.0`](https://ship.convex.dev/) |
 | [PostHog/posthog#54002](https://github.com/PostHog/posthog/pull/54002) | Preserved Vercel AI OTel user, session, and function identifiers so LLM analytics attach to the right user/session. | ✅ Merged |
 | [anomalyco/opencode#13720](https://github.com/anomalyco/opencode/pull/13720) | Added GeistMono Nerd Font as a selectable mono font across app settings and locale strings. | ✅ Merged |
 | [kitlangton/ghui](https://github.com/kitlangton/ghui/compare/v0.4.3...v0.4.4) | Opened [#7](https://github.com/kitlangton/ghui/pull/7) for the Vague theme and [#8](https://github.com/kitlangton/ghui/pull/8) for picker-modal wraparound navigation; both PRs were closed after the work shipped in `v0.4.4` via upstream commits [`8e357eeffc3bff6870553a90a5cdb137567c0a61`](https://github.com/kitlangton/ghui/commit/8e357eeffc3bff6870553a90a5cdb137567c0a61) and [`5c5576db79928e0102166b04cd312d16831ad2c8`](https://github.com/kitlangton/ghui/commit/5c5576db79928e0102166b04cd312d16831ad2c8). | 🚀 Shipped v0.4.4 |
