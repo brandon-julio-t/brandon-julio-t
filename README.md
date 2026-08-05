@@ -37,7 +37,7 @@ I lead and build software for messy real-world workflows: ERP platforms, financi
 
 | Project | Contribution | Status |
 | --- | --- | --- |
-| [Effect-TS/effect#7015](https://github.com/Effect-TS/effect/issues/7015) + [#7016](https://github.com/Effect-TS/effect/pull/7016) | Traced a production failure in jittered workflow retries to fractional-millisecond durable-clock timestamps, then fixed the cluster persistence boundary with ceiling semantics and regression coverage. | ✅ Merged |
+| [Effect-TS/effect#7015](https://github.com/Effect-TS/effect/issues/7015) + [#7016](https://github.com/Effect-TS/effect/pull/7016) | Diagnosed a production-breaking contract mismatch in Effect Cluster's durable clock, then shipped the upstream fix with safe timer semantics and regression coverage for jittered workflow retries. | ✅ Reported & fix merged |
 | [get-convex/convex-backend#441](https://github.com/get-convex/convex-backend/issues/441) + [#442](https://github.com/get-convex/convex-backend/pull/442) | Reported and proposed a fix for `convex dev --start` cleanup behavior when launched through `bun run`. | 🛠️ Shipped in the [`convex v1.36.0` changelog](https://github.com/get-convex/convex-backend/blob/main/npm-packages/convex/CHANGELOG.md#L257-L269) |
 | [get-convex/agent#190](https://github.com/get-convex/agent/issues/190) | Provided production validation, a [prototype patch](https://gist.github.com/brandon-julio-t/b203784e2421b35dd7bf7e427483919e), and a [benchmark repro](https://github.com/brandon-julio-t/agent-190-repro) for O(n²) lag while streaming long tool-input deltas. | ✅ Upstream fix merged in [#270](https://github.com/get-convex/agent/pull/270) |
 | [PostHog/posthog#54002](https://github.com/PostHog/posthog/pull/54002) | Preserved Vercel AI OTel user, session, and function identifiers so LLM analytics attach to the right user/session. | ✅ Merged |
@@ -60,7 +60,7 @@ I lead and build software for messy real-world workflows: ERP platforms, financi
 | 💸 Cost optimization | AWS S3 storage cleanup that cut stored data by 48%. |
 | ✨ UI engineering | Animated components, dashboard surfaces, mobile-first workflows, and shadcn/Tailwind systems. |
 | ⚙️ Engineering systems | Deployment, health checks, observability, dependency maintenance, production docs, and technical standards. |
-| 🛠️ Developer tooling | Practical upstream fixes in AI/devtool ecosystems including Effect, PostHog, Opencode, Convex, and Motion Primitives. |
+| 🛠️ Developer infrastructure | Practical upstream fixes across Effect, PostHog, Opencode, Convex, and Motion Primitives. |
 
 ---
 
