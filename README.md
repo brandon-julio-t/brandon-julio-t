@@ -19,6 +19,14 @@
 
 ---
 
+## 🏆 Latest Open Source Win
+
+**My React layout fix is merged into [deck.gl](https://github.com/visgl/deck.gl/pull/10724)!** 🎉 · September 30, 2026
+
+From bug report to upstream merge: I restored misplaced map tooltips and aligned widgets with the canvas across positioning modes and resizing, backed by browser regression tests and before/after visual evidence.
+
+---
+
 ## 🚢 What I Ship
 
 I lead and build software for messy real-world workflows: ERP platforms, financial operations, inventory systems, AI-assisted operations, internal tools, and customer-facing portals. I care about fast iteration, clean product behavior, data correctness, and production systems that stay understandable after they scale.
@@ -29,7 +37,7 @@ I lead and build software for messy real-world workflows: ERP platforms, financi
 - 🔭 Own production hardening across health checks, observability, OpenTelemetry tracing, deploy scripts, and operator documentation.
 - 📄 Build business-critical document systems including invoice PDFs, credit-note workflows, font rendering fixes, retry/timeout handling, and regression coverage.
 - 💸 Reduced AWS S3 storage by 48%, translating to roughly 50% cost savings.
-- 🌍 Contribute upstream fixes to tools I use, including OpenClaw, Effect, Convex, PostHog, Pitchfork, Opencode, ghui, Motion Primitives, React docs, and Vague.
+- 🌍 Contribute upstream fixes to tools I use, including deck.gl, OpenClaw, Effect, Convex, PostHog, Pitchfork, Opencode, ghui, Motion Primitives, React docs, and Vague.
 
 ---
 
@@ -37,6 +45,7 @@ I lead and build software for messy real-world workflows: ERP platforms, financi
 
 | Project | Contribution | Status |
 | --- | --- | --- |
+| [visgl/deck.gl#10723](https://github.com/visgl/deck.gl/issues/10723) + [#10724](https://github.com/visgl/deck.gl/pull/10724) | Reported and fixed misplaced React map tooltips by aligning the widget root with the DeckGL canvas. Added browser regression coverage for static wrappers, percentage sizing, resizing, fill/corner widgets, and pointer targeting, plus WebGPU child-sizing checks and before/after visual evidence. | ✅ Reported & fix merged |
 | [openclaw/openclaw#160889](https://github.com/openclaw/openclaw/issues/160889) + [#160895](https://github.com/openclaw/openclaw/pull/160895) | Reported and fixed OpenAI Responses tool continuations dropping a valid compaction checkpoint during tool-call ID repair, which resent covered conversation history. Added replay regression coverage and verified the corrected continuation with the live OpenAI API. | ✅ Reported & fix merged |
 | [Effect-TS/effect#7015](https://github.com/Effect-TS/effect/issues/7015) + [#7016](https://github.com/Effect-TS/effect/pull/7016) | Diagnosed an Effect Cluster durable-clock contract mismatch that broke production retries, then shipped the upstream fix with non-early ceiling semantics and regression coverage for fractional-millisecond wake-ups. | ✅ Reported & fix merged |
 | [get-convex/convex-backend#441](https://github.com/get-convex/convex-backend/issues/441) + [#442](https://github.com/get-convex/convex-backend/pull/442) | Reported and proposed a fix for `convex dev --start` cleanup behavior when launched through `bun run`. | 🛠️ Shipped in the [`convex v1.36.0` changelog](https://github.com/get-convex/convex-backend/blob/main/npm-packages/convex/CHANGELOG.md#L257-L269) |
@@ -61,7 +70,7 @@ I lead and build software for messy real-world workflows: ERP platforms, financi
 | 💸 Cost optimization | AWS S3 storage cleanup that cut stored data by 48%. |
 | ✨ UI engineering | Animated components, dashboard surfaces, mobile-first workflows, and shadcn/Tailwind systems. |
 | ⚙️ Engineering systems | Deployment, health checks, observability, dependency maintenance, production docs, and technical standards. |
-| 🛠️ Open-source ecosystem | Practical upstream fixes across OpenClaw, Effect, PostHog, Opencode, Convex, and Motion Primitives. |
+| 🛠️ Open-source ecosystem | Practical upstream fixes across deck.gl, OpenClaw, Effect, PostHog, Opencode, Convex, and Motion Primitives. |
 
 ---
 
