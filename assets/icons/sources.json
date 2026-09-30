@@ -6,7 +6,7 @@
   "posthog.png": "https://posthog.com/favicon-32x32.png?v=6e5ac8d4a5b381b5caa29396fbf7c955",
   "pitchfork.png": "https://pitchfork.jdx.dev/img/favicon-32x32.png",
   "opencode.png": "https://opencode.ai/favicon-96x96-v3.png",
-  "motion-primitives.png": "https://motion-primitives.com/icon.ico?71bbcdb60d31e7d3",
   "react.png": "https://id.react.dev/favicon-32x32.png",
-  "vague.png": "https://raw.githubusercontent.com/vague-theme/vague/main/assets/icon.png"
+  "vague.png": "https://raw.githubusercontent.com/vague-theme/vague/main/assets/icon.png",
+  "motion-primitives.svg": "https://github.com/ibelick/motion-primitives/blob/main/components/website/icons/motion-primitives-logo.tsx"
 }
