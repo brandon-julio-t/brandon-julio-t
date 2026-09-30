@@ -19,14 +19,6 @@
 
 ---
 
-## 🏆 Latest Open Source Win
-
-**My React layout fix is merged into [deck.gl](https://github.com/visgl/deck.gl/pull/10724)!** 🎉 · September 30, 2026
-
-From bug report to upstream merge: I restored misplaced map tooltips and aligned widgets with the canvas across positioning modes and resizing, backed by browser regression tests and before/after visual evidence.
-
----
-
 ## 🚢 What I Ship
 
 I lead and build software for messy real-world workflows: ERP platforms, financial operations, inventory systems, AI-assisted operations, internal tools, and customer-facing portals. I care about fast iteration, clean product behavior, data correctness, and production systems that stay understandable after they scale.
@@ -45,7 +37,7 @@ I lead and build software for messy real-world workflows: ERP platforms, financi
 
 | Project | Contribution | Status |
 | --- | --- | --- |
-| [visgl/deck.gl#10723](https://github.com/visgl/deck.gl/issues/10723) + [#10724](https://github.com/visgl/deck.gl/pull/10724) | Reported and fixed misplaced React map tooltips by aligning the widget root with the DeckGL canvas. Added browser regression coverage for static wrappers, percentage sizing, resizing, fill/corner widgets, and pointer targeting, plus WebGPU child-sizing checks and before/after visual evidence. | ✅ Reported & fix merged |
+| [visgl/deck.gl#10723](https://github.com/visgl/deck.gl/issues/10723) + [#10724](https://github.com/visgl/deck.gl/pull/10724) | **Restored tooltip and widget alignment in deck.gl's React integration.** Diagnosed the layout bug, reported it with visual reproductions, and contributed the upstream fix. Added regression coverage for resizing, widget placement, pointer interactions, and WebGPU sizing. | ✅ Reported & fix merged |
 | [openclaw/openclaw#160889](https://github.com/openclaw/openclaw/issues/160889) + [#160895](https://github.com/openclaw/openclaw/pull/160895) | Reported and fixed OpenAI Responses tool continuations dropping a valid compaction checkpoint during tool-call ID repair, which resent covered conversation history. Added replay regression coverage and verified the corrected continuation with the live OpenAI API. | ✅ Reported & fix merged |
 | [Effect-TS/effect#7015](https://github.com/Effect-TS/effect/issues/7015) + [#7016](https://github.com/Effect-TS/effect/pull/7016) | Diagnosed an Effect Cluster durable-clock contract mismatch that broke production retries, then shipped the upstream fix with non-early ceiling semantics and regression coverage for fractional-millisecond wake-ups. | ✅ Reported & fix merged |
 | [get-convex/convex-backend#441](https://github.com/get-convex/convex-backend/issues/441) + [#442](https://github.com/get-convex/convex-backend/pull/442) | Reported and proposed a fix for `convex dev --start` cleanup behavior when launched through `bun run`. | 🛠️ Shipped in the [`convex v1.36.0` changelog](https://github.com/get-convex/convex-backend/blob/main/npm-packages/convex/CHANGELOG.md#L257-L269) |
