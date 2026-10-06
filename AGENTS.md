@@ -8,6 +8,10 @@
   projects. Use the latest completed contribution date when one row covers multiple contributions.
 - Add contributions to the existing table. Preserve concise descriptions, source links, project
   icons, and accurate status labels. Use the same emphasis as the other rows.
+- Write each description as a short, concrete story. Start with the observed problem or
+  contribution, then explain the investigation, action, and result in chronological order. Use
+  familiar language and retain technical terms only when they explain what failed or changed. Omit
+  implementation and validation details that readers can find in the linked sources.
 
 ## Delivery
 
