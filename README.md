@@ -21,67 +21,78 @@
 
 ## 🚢 What I Ship
 
-I lead and build software for messy real-world workflows: ERP platforms, financial operations, inventory systems, AI-assisted operations, internal tools, and customer-facing portals. I care about fast iteration, clean product behavior, data correctness, and production systems that stay understandable after they scale.
+I lead and build software for messy real-world workflows: ERP platforms, financial operations,
+inventory systems, AI-assisted operations, internal tools, and customer-facing portals. I care about
+fast iteration, clean product behavior, data correctness, and production systems that stay
+understandable after they scale.
 
-- 🏗️ Core builder of Farmio's product stack across ERP, backend services, portals, workers, deployment, and operational tooling.
-- 🧾 Design correctness-first database flows, including `SERIALIZABLE` transaction isolation for money, inventory, reconciliation, and other high-integrity workflows.
-- 🤖 Led AI product work including an analytics assistant and Chat Order AI Agent, with reported productivity gains of 70% for analytics work and 60% for customer service workflows.
-- 🔭 Own production hardening across health checks, observability, OpenTelemetry tracing, deploy scripts, and operator documentation.
-- 📄 Build business-critical document systems including invoice PDFs, credit-note workflows, font rendering fixes, retry/timeout handling, and regression coverage.
+- 🏗️ Core builder of Farmio's product stack across ERP, backend services, portals, workers,
+  deployment, and operational tooling.
+- 🧾 Design correctness-first database flows, including `SERIALIZABLE` transaction isolation for
+  money, inventory, reconciliation, and other high-integrity workflows.
+- 🤖 Led AI product work including an analytics assistant and Chat Order AI Agent, with reported
+  productivity gains of 70% for analytics work and 60% for customer service workflows.
+- 🔭 Own production hardening across health checks, observability, OpenTelemetry tracing, deploy
+  scripts, and operator documentation.
+- 📄 Build business-critical document systems including invoice PDFs, credit-note workflows, font
+  rendering fixes, retry/timeout handling, and regression coverage.
 - 💸 Reduced AWS S3 storage by 48%, translating to roughly 50% cost savings.
-- 🌍 Contribute upstream fixes to tools I use, including deck.gl, OpenClaw, Effect, Convex, PostHog, Pitchfork, Opencode, ghui, Motion Primitives, React docs, and Vague.
+- 🌍 Contribute upstream fixes to tools I use, including deck.gl, OpenClaw, Effect, Convex, PostHog,
+  Pitchfork, Opencode, ghui, Motion Primitives, React docs, and Vague.
 
 ---
 
 ## 🌍 Open Source Highlights
 
-| Project | Contribution | Status |
-| --- | --- | --- |
-| <img src="assets/icons/deck-gl.png" width="20" height="20" alt="">&nbsp; [deck.gl #10723](https://github.com/visgl/deck.gl/issues/10723) + [#10724](https://github.com/visgl/deck.gl/pull/10724) | Restored tooltip and widget alignment in deck.gl's React integration. Diagnosed the layout bug, reported it with visual reproductions, and contributed the upstream fix. Added regression coverage for resizing, widget placement, pointer interactions, and WebGPU sizing. | ✅ Reported & fix merged |
-| <img src="assets/icons/openclaw.png" width="20" height="20" alt="">&nbsp; [OpenClaw #161836](https://github.com/openclaw/openclaw/issues/161836) + [#161842](https://github.com/openclaw/openclaw/pull/161842) | Restored inbound image previews after workspace staging and chat-history reloads. Traced the lost media reference, reported the regression, and contributed the upstream fix while preserving workspace-path privacy. Added eight regression cases and browser verification for host and sandbox staging. | ✅ Reported & fix merged |
-| <img src="assets/icons/openclaw.png" width="20" height="20" alt="">&nbsp; [OpenClaw #160889](https://github.com/openclaw/openclaw/issues/160889) + [#160895](https://github.com/openclaw/openclaw/pull/160895) | Reported and fixed OpenAI Responses tool continuations dropping a valid compaction checkpoint during tool-call ID repair, which resent covered conversation history. Added replay regression coverage and verified the corrected continuation with the live OpenAI API. | ✅ Reported & fix merged |
-| <img src="assets/icons/effect.svg" width="20" height="20" alt="">&nbsp; [Effect #7015](https://github.com/Effect-TS/effect/issues/7015) + [#7016](https://github.com/Effect-TS/effect/pull/7016) | Diagnosed an Effect Cluster durable-clock contract mismatch that broke production retries, then shipped the upstream fix with non-early ceiling semantics and regression coverage for fractional-millisecond wake-ups. | ✅ Reported & fix merged |
-| <img src="assets/icons/convex.png" width="20" height="20" alt="">&nbsp; [Convex #441](https://github.com/get-convex/convex-backend/issues/441) + [#442](https://github.com/get-convex/convex-backend/pull/442) | Reported and proposed a fix for `convex dev --start` cleanup behavior when launched through `bun run`. | 🛠️ Shipped in the [`convex v1.36.0` changelog](https://github.com/get-convex/convex-backend/blob/main/npm-packages/convex/CHANGELOG.md#L257-L269) |
-| <img src="assets/icons/convex.png" width="20" height="20" alt="">&nbsp; [Convex Agent #190](https://github.com/get-convex/agent/issues/190) | Provided production validation, a [prototype patch](https://gist.github.com/brandon-julio-t/b203784e2421b35dd7bf7e427483919e), and a [benchmark repro](https://github.com/brandon-julio-t/agent-190-repro) for O(n²) lag while streaming long tool-input deltas. | ✅ Upstream fix merged in [#270](https://github.com/get-convex/agent/pull/270) |
-| <img src="assets/icons/posthog.png" width="20" height="20" alt="">&nbsp; [PostHog AI #5055](https://github.com/PostHog/posthog-js/issues/5055) + [#5056](https://github.com/PostHog/posthog-js/pull/5056) | Restored cache-read and cache-write token reporting in OpenAI Agents traces. Reported the missing usage data and contributed the upstream fix, with regression coverage across Responses and Chat Completions. | 🚀 Shipped in [`@posthog/ai 8.13.4`](https://github.com/PostHog/posthog-js/releases/tag/%40posthog/ai%408.13.4) |
-| <img src="assets/icons/posthog.png" width="20" height="20" alt="">&nbsp; [PostHog #54002](https://github.com/PostHog/posthog/pull/54002) | Preserved Vercel AI OTel user, session, and function identifiers so LLM analytics attach to the right user/session. | ✅ Merged |
-| <img src="assets/icons/pitchfork.png" width="20" height="20" alt="">&nbsp; [Pitchfork #580](https://github.com/jdx/pitchfork/pull/580) | Restored ARM64 Linux GNU release compatibility for Amazon Linux 2023 by pinning the `aarch64-unknown-linux-gnu` cross image after a mutable image picked up a newer `GLIBC_2.39` requirement. | ✅ Merged |
-| <img src="assets/icons/opencode.png" width="20" height="20" alt="">&nbsp; [OpenCode #13720](https://github.com/anomalyco/opencode/pull/13720) | Added GeistMono Nerd Font as a selectable mono font across app settings and locale strings. | ✅ Merged |
-| 🖥️ [ghui](https://github.com/kitlangton/ghui/compare/v0.4.3...v0.4.4) | Opened [#7](https://github.com/kitlangton/ghui/pull/7) for the Vague theme and [#8](https://github.com/kitlangton/ghui/pull/8) for picker-modal wraparound navigation; both PRs were closed after the work shipped in `v0.4.4` via upstream commits [`8e357eeffc3bff6870553a90a5cdb137567c0a61`](https://github.com/kitlangton/ghui/commit/8e357eeffc3bff6870553a90a5cdb137567c0a61) and [`5c5576db79928e0102166b04cd312d16831ad2c8`](https://github.com/kitlangton/ghui/commit/5c5576db79928e0102166b04cd312d16831ad2c8). | 🚀 Shipped in [`v0.4.4`](https://github.com/kitlangton/ghui/releases/tag/v0.4.4) |
-| <img src="assets/icons/motion-primitives.svg" width="20" height="20" alt="">&nbsp; [Motion Primitives #146](https://github.com/ibelick/motion-primitives/pull/146) | Fixed shadcn registry metadata so `react-use-measure` installs automatically for affected components. | ✅ Merged |
-| <img src="assets/icons/react.png" width="20" height="20" alt="">&nbsp; [React (Indonesian) #472](https://github.com/reactjs/id.react.dev/pull/472) | Contributed the initial Indonesian translation for React's "Updating Objects in State" docs page. | ✅ Merged |
-| <img src="assets/icons/vague.png" width="20" height="20" alt="">&nbsp; [Vague #8](https://github.com/vague-theme/vague/issues/8) + [#12](https://github.com/vague-theme/vague/issues/12) | Transferred my [`vague-opencode`](https://github.com/vague-theme/vague-opencode) and [`vague-bat`](https://github.com/vague-theme/vague-bat) themes into the Vague ecosystem for OpenCode, `bat`, `delta`, and `lazygit` users. | 🎨 Transferred |
+| Project                                                                                                                                                                                                        | Contribution                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | Status                                                                                                                                            |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <img src="assets/icons/deck-gl.png" width="20" height="20" alt="">&nbsp; [deck.gl #10723](https://github.com/visgl/deck.gl/issues/10723) + [#10724](https://github.com/visgl/deck.gl/pull/10724)               | Restored tooltip and widget alignment in deck.gl's React integration. Diagnosed the layout bug, reported it with visual reproductions, and contributed the upstream fix. Added regression coverage for resizing, widget placement, pointer interactions, and WebGPU sizing.                                                                                                                                                                                                                                                | ✅ Reported & fix merged                                                                                                                          |
+| <img src="assets/icons/openclaw.png" width="20" height="20" alt="">&nbsp; [OpenClaw #161836](https://github.com/openclaw/openclaw/issues/161836) + [#161842](https://github.com/openclaw/openclaw/pull/161842) | Restored inbound image previews after workspace staging and chat-history reloads. Traced the lost media reference, reported the regression, and contributed the upstream fix while preserving workspace-path privacy. Added eight regression cases and browser verification for host and sandbox staging.                                                                                                                                                                                                                  | ✅ Reported & fix merged                                                                                                                          |
+| <img src="assets/icons/openclaw.png" width="20" height="20" alt="">&nbsp; [OpenClaw #160889](https://github.com/openclaw/openclaw/issues/160889) + [#160895](https://github.com/openclaw/openclaw/pull/160895) | Reported and fixed OpenAI Responses tool continuations dropping a valid compaction checkpoint during tool-call ID repair, which resent covered conversation history. Added replay regression coverage and verified the corrected continuation with the live OpenAI API.                                                                                                                                                                                                                                                    | ✅ Reported & fix merged                                                                                                                          |
+| <img src="assets/icons/effect.svg" width="20" height="20" alt="">&nbsp; [Effect #8843](https://github.com/Effect-TS/effect/issues/8843) + [#8842](https://github.com/Effect-TS/effect/pull/8842)               | Restored compile-time dependency checks for Effect's MCP toolkits. Traced a runtime `HttpClient` failure to lost service requirements, reported the bug, and contributed the upstream fix with type regression coverage.                                                                                                                                                                                                                                                                                                   | ✅ Reported & fix merged                                                                                                                          |
+| <img src="assets/icons/effect.svg" width="20" height="20" alt="">&nbsp; [Effect #7015](https://github.com/Effect-TS/effect/issues/7015) + [#7016](https://github.com/Effect-TS/effect/pull/7016)               | Diagnosed an Effect Cluster durable-clock contract mismatch that broke production retries, then shipped the upstream fix with non-early ceiling semantics and regression coverage for fractional-millisecond wake-ups.                                                                                                                                                                                                                                                                                                     | ✅ Reported & fix merged                                                                                                                          |
+| <img src="assets/icons/convex.png" width="20" height="20" alt="">&nbsp; [Convex #441](https://github.com/get-convex/convex-backend/issues/441) + [#442](https://github.com/get-convex/convex-backend/pull/442) | Reported and proposed a fix for `convex dev --start` cleanup behavior when launched through `bun run`.                                                                                                                                                                                                                                                                                                                                                                                                                     | 🛠️ Shipped in the [`convex v1.36.0` changelog](https://github.com/get-convex/convex-backend/blob/main/npm-packages/convex/CHANGELOG.md#L257-L269) |
+| <img src="assets/icons/convex.png" width="20" height="20" alt="">&nbsp; [Convex Agent #190](https://github.com/get-convex/agent/issues/190)                                                                    | Provided production validation, a [prototype patch](https://gist.github.com/brandon-julio-t/b203784e2421b35dd7bf7e427483919e), and a [benchmark repro](https://github.com/brandon-julio-t/agent-190-repro) for O(n²) lag while streaming long tool-input deltas.                                                                                                                                                                                                                                                           | ✅ Upstream fix merged in [#270](https://github.com/get-convex/agent/pull/270)                                                                    |
+| <img src="assets/icons/posthog.png" width="20" height="20" alt="">&nbsp; [PostHog AI #5055](https://github.com/PostHog/posthog-js/issues/5055) + [#5056](https://github.com/PostHog/posthog-js/pull/5056)      | Restored cache-read and cache-write token reporting in OpenAI Agents traces. Reported the missing usage data and contributed the upstream fix, with regression coverage across Responses and Chat Completions.                                                                                                                                                                                                                                                                                                             | 🚀 Shipped in [`@posthog/ai 8.13.4`](https://github.com/PostHog/posthog-js/releases/tag/%40posthog/ai%408.13.4)                                   |
+| <img src="assets/icons/posthog.png" width="20" height="20" alt="">&nbsp; [PostHog #54002](https://github.com/PostHog/posthog/pull/54002)                                                                       | Preserved Vercel AI OTel user, session, and function identifiers so LLM analytics attach to the right user/session.                                                                                                                                                                                                                                                                                                                                                                                                        | ✅ Merged                                                                                                                                         |
+| <img src="assets/icons/pitchfork.png" width="20" height="20" alt="">&nbsp; [Pitchfork #580](https://github.com/jdx/pitchfork/pull/580)                                                                         | Restored ARM64 Linux GNU release compatibility for Amazon Linux 2023 by pinning the `aarch64-unknown-linux-gnu` cross image after a mutable image picked up a newer `GLIBC_2.39` requirement.                                                                                                                                                                                                                                                                                                                              | ✅ Merged                                                                                                                                         |
+| <img src="assets/icons/opencode.png" width="20" height="20" alt="">&nbsp; [OpenCode #13720](https://github.com/anomalyco/opencode/pull/13720)                                                                  | Added GeistMono Nerd Font as a selectable mono font across app settings and locale strings.                                                                                                                                                                                                                                                                                                                                                                                                                                | ✅ Merged                                                                                                                                         |
+| 🖥️ [ghui](https://github.com/kitlangton/ghui/compare/v0.4.3...v0.4.4)                                                                                                                                          | Opened [#7](https://github.com/kitlangton/ghui/pull/7) for the Vague theme and [#8](https://github.com/kitlangton/ghui/pull/8) for picker-modal wraparound navigation; both PRs were closed after the work shipped in `v0.4.4` via upstream commits [`8e357eeffc3bff6870553a90a5cdb137567c0a61`](https://github.com/kitlangton/ghui/commit/8e357eeffc3bff6870553a90a5cdb137567c0a61) and [`5c5576db79928e0102166b04cd312d16831ad2c8`](https://github.com/kitlangton/ghui/commit/5c5576db79928e0102166b04cd312d16831ad2c8). | 🚀 Shipped in [`v0.4.4`](https://github.com/kitlangton/ghui/releases/tag/v0.4.4)                                                                  |
+| <img src="assets/icons/motion-primitives.svg" width="20" height="20" alt="">&nbsp; [Motion Primitives #146](https://github.com/ibelick/motion-primitives/pull/146)                                             | Fixed shadcn registry metadata so `react-use-measure` installs automatically for affected components.                                                                                                                                                                                                                                                                                                                                                                                                                      | ✅ Merged                                                                                                                                         |
+| <img src="assets/icons/react.png" width="20" height="20" alt="">&nbsp; [React (Indonesian) #472](https://github.com/reactjs/id.react.dev/pull/472)                                                             | Contributed the initial Indonesian translation for React's "Updating Objects in State" docs page.                                                                                                                                                                                                                                                                                                                                                                                                                          | ✅ Merged                                                                                                                                         |
+| <img src="assets/icons/vague.png" width="20" height="20" alt="">&nbsp; [Vague #8](https://github.com/vague-theme/vague/issues/8) + [#12](https://github.com/vague-theme/vague/issues/12)                       | Transferred my [`vague-opencode`](https://github.com/vague-theme/vague-opencode) and [`vague-bat`](https://github.com/vague-theme/vague-bat) themes into the Vague ecosystem for OpenCode, `bat`, `delta`, and `lazygit` users.                                                                                                                                                                                                                                                                                            | 🎨 Transferred                                                                                                                                    |
 
 ---
 
 ## 🧩 Product Work
 
-| Area | Work |
-| --- | --- |
-| 🏭 Farmio ERP | Technical ownership across order management, invoicing, payment reconciliation, inventory control, driver tasking, and route planning. |
-| 🤖 AI workflows | Analytics assistant for business data exploration and Chat Order AI Agent for customer service operations. |
-| 🧾 Database correctness | Serializable transaction boundaries for financial and inventory workflows where consistency matters more than theoretical throughput. |
-| 💸 Cost optimization | AWS S3 storage cleanup that cut stored data by 48%. |
-| ✨ UI engineering | Animated components, dashboard surfaces, mobile-first workflows, and shadcn/Tailwind systems. |
-| ⚙️ Engineering systems | Deployment, health checks, observability, dependency maintenance, production docs, and technical standards. |
-| 🛠️ Open-source ecosystem | Practical upstream fixes across deck.gl, OpenClaw, Effect, PostHog, Opencode, Convex, and Motion Primitives. |
+| Area                     | Work                                                                                                                                   |
+| ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------- |
+| 🏭 Farmio ERP            | Technical ownership across order management, invoicing, payment reconciliation, inventory control, driver tasking, and route planning. |
+| 🤖 AI workflows          | Analytics assistant for business data exploration and Chat Order AI Agent for customer service operations.                             |
+| 🧾 Database correctness  | Serializable transaction boundaries for financial and inventory workflows where consistency matters more than theoretical throughput.  |
+| 💸 Cost optimization     | AWS S3 storage cleanup that cut stored data by 48%.                                                                                    |
+| ✨ UI engineering        | Animated components, dashboard surfaces, mobile-first workflows, and shadcn/Tailwind systems.                                          |
+| ⚙️ Engineering systems   | Deployment, health checks, observability, dependency maintenance, production docs, and technical standards.                            |
+| 🛠️ Open-source ecosystem | Practical upstream fixes across deck.gl, OpenClaw, Effect, PostHog, Opencode, Convex, and Motion Primitives.                           |
 
 ---
 
 ## 💼 Experience
 
-| Role | Company | Period |
-| --- | --- | --- |
-| Tech Lead | [Farmio](https://farmio.io) | 2024 - Present |
-| Fullstack Engineer | [BINUS University](https://binus.ac.id) R&D Team | 2020 - 2023 |
-| Teaching Assistant | [BINUS University](https://binus.ac.id) | 2020 - 2021 |
+| Role               | Company                                          | Period         |
+| ------------------ | ------------------------------------------------ | -------------- |
+| Tech Lead          | [Farmio](https://farmio.io)                      | 2024 - Present |
+| Fullstack Engineer | [BINUS University](https://binus.ac.id) R&D Team | 2020 - 2023    |
+| Teaching Assistant | [BINUS University](https://binus.ac.id)          | 2020 - 2021    |
 
 ---
 
 ## 🛠️ Operating Range
 
 - 🎨 **Frontend:** React, Next.js, TypeScript, Tailwind CSS, shadcn/ui, motion-heavy interfaces
-- 🧱 **Backend:** Node.js, Express, PostgreSQL, Redis, Prisma, transaction isolation, API design, background workflows
+- 🧱 **Backend:** Node.js, Express, PostgreSQL, Redis, Prisma, transaction isolation, API design,
+  background workflows
 - 🤖 **AI/LLM:** AI agents, chat apps, RAG patterns, OpenAI integrations, LLM analytics
 - ☁️ **Infra:** AWS, Docker, Vercel, CI/CD, cost optimization
 - 🧪 **Other:** Python, Go, PHP, Solidity, Ethereum
@@ -90,11 +101,17 @@ I lead and build software for messy real-world workflows: ERP platforms, financi
 
 ## ✨ Selected Projects
 
-- 🎛️ [Animated components](https://brandonjuliothenaro.my.id/components) - web animation experiments and UI component work.
-- 💬 [T3 Chat Clone](https://github.com/brandon-julio-t/t3-chat-clone) - LLM chat UI cloneathon across modern chat product patterns.
-- 🧾 [Mini Invoice](https://github.com/brandon-julio-t/mini-invoice) - mobile invoicing app built for a real family workflow.
-- ⚡ [Slack Clone](https://github.com/brandon-julio-t/slack-clone) - real-time collaboration app exploring Slack-style product behavior.
-- ⛓️ [Web3 Event Management](https://github.com/brandon-julio-t/decentralized-event-membership-management) - Solidity and Hardhat dApp for decentralized event membership.
+- 🎛️ [Animated components](https://brandonjuliothenaro.my.id/components) - web animation experiments
+  and UI component work.
+- 💬 [T3 Chat Clone](https://github.com/brandon-julio-t/t3-chat-clone) - LLM chat UI cloneathon
+  across modern chat product patterns.
+- 🧾 [Mini Invoice](https://github.com/brandon-julio-t/mini-invoice) - mobile invoicing app built
+  for a real family workflow.
+- ⚡ [Slack Clone](https://github.com/brandon-julio-t/slack-clone) - real-time collaboration app
+  exploring Slack-style product behavior.
+- ⛓️
+  [Web3 Event Management](https://github.com/brandon-julio-t/decentralized-event-membership-management) -
+  Solidity and Hardhat dApp for decentralized event membership.
 
 ---
 
@@ -111,8 +128,7 @@ I lead and build software for messy real-world workflows: ERP platforms, financi
 
 **Good software earns trust by making the next action obvious.**
 
-📫 Hit me up on
-[LinkedIn](https://www.linkedin.com/in/brandonjuliothenaro/) ·
+📫 Hit me up on [LinkedIn](https://www.linkedin.com/in/brandonjuliothenaro/) ·
 [X / Twitter](https://twitter.com/brandon_julio_t) ·
 [Instagram](https://www.instagram.com/brandon.julio.t/)
 
