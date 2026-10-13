@@ -8,10 +8,15 @@
   projects. Use the latest completed contribution date when one row covers multiple contributions.
 - Add contributions to the existing table. Preserve concise descriptions, source links, project
   icons, and accurate status labels. Use the same emphasis as the other rows.
-- Write each description as a short, concrete story. Start with the observed problem or
-  contribution, then explain the investigation, action, and result in chronological order. Use
-  familiar language and retain technical terms only when they explain what failed or changed. Omit
-  implementation and validation details that readers can find in the linked sources.
+- Write each description as a short, concrete story. Start with the observed problem or contribution
+  and make its consequence clear, then explain the action and result in chronological order. Name
+  who benefits and what becomes safer, easier, faster, or possible; briefly explain an unfamiliar
+  project's purpose when readers need it to understand the benefit. Use familiar language and retain
+  technical terms only when they explain what failed or changed. Omit implementation and validation
+  details that readers can find in the linked sources.
+- Ground impact in linked evidence. Explain the practical benefit of version or dependency changes
+  instead of ending at "updated" or "fixed." Distinguish delivered outcomes from expected benefits;
+  do not invent adoption, savings, prevented incidents, or vulnerability remediation.
 
 ## Delivery
 
