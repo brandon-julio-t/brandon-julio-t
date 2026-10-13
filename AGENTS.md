@@ -14,6 +14,8 @@
   project's purpose when readers need it to understand the benefit. Use familiar language and retain
   technical terms only when they explain what failed or changed. Omit implementation and validation
   details that readers can find in the linked sources.
+- Vary openings to suit the evidence: lead with a failure users encountered, its trigger, the
+  investigation, or the contribution. Avoid repeating the same lead-in across nearby entries.
 - Ground impact in linked evidence. Explain the practical benefit of version or dependency changes
   instead of ending at "updated" or "fixed." Distinguish delivered outcomes from expected benefits;
   do not invent adoption, savings, prevented incidents, or vulnerability remediation.
