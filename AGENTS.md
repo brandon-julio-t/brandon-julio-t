@@ -3,6 +3,8 @@
 ## Contributions
 
 - Keep the Open Source Highlights table in reverse chronological order, newest first.
+- Include completed contributions only. Omit open proposals until the work merges or ships; reports
+  and proposed fixes resolved by upstream work may be credited with accurate attribution.
 - Verify dates from the linked sources. Use the merge date for merged work, the release date for
   work shipped without merging the submitted PR, and the confirmed transfer date for transferred
   projects. Use the latest completed contribution date when one row covers multiple contributions.
