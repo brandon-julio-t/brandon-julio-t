@@ -5,6 +5,8 @@
 - Keep the Open Source Highlights table in reverse chronological order, newest first.
 - Include completed contributions only. Omit open proposals until the work merges or ships; reports
   and proposed fixes resolved by upstream work may be credited with accurate attribution.
+- Verify completion from current upstream evidence before drafting an entry. An open, parked, draft,
+  or approved PR alone is not a completed contribution; do not publish it with a proposed status.
 - Verify dates from the linked sources. Use the merge date for merged work, the release date for
   work shipped without merging the submitted PR, and the confirmed transfer date for transferred
   projects. Use the latest completed contribution date when one row covers multiple contributions.
@@ -24,6 +26,13 @@
 
 ## Delivery
 
+- Keep upstream issue and PR evidence links in README entries for completed contributions. Do not
+  put upstream issue or PR URLs, cross-repository references, or closing keywords in profile commit
+  titles or bodies: GitHub can turn them into unwanted activity on upstream timelines. Describe the
+  rationale in prose and point reviewers to the README evidence instead.
+- Inspect the full commit message as well as the staged diff before publishing. Check contribution
+  eligibility and unintended upstream references; removing a README entry later does not remove an
+  existing timeline event.
 - Publish requested profile updates after verification without another approval request. The user
   authorizes the task-owned commits and pushes for profile maintenance. Explicit instructions such
   as `local only` or `do not push` take precedence.
