@@ -33,6 +33,9 @@
 - Inspect the full commit message as well as the staged diff before publishing. Check contribution
   eligibility and unintended upstream references; removing a README entry later does not remove an
   existing timeline event.
+- When a contribution is completed, closed, or superseded, apply the shared
+  [upstream contribution cleanup](https://github.com/Farmio-io/farmio-service/blob/master/.agents/skills/upstream-contribution/SKILL.md)
+  before handoff, without a separate cleanup request. Preserve useful unresolved work.
 - Publish requested profile updates after verification without another approval request. The user
   authorizes the task-owned commits and pushes for profile maintenance. Explicit instructions such
   as `local only` or `do not push` take precedence.
