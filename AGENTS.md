@@ -7,6 +7,11 @@
   and proposed fixes resolved by upstream work may be credited with accurate attribution.
 - Verify completion from current upstream evidence before drafting an entry. An open, parked, draft,
   or approved PR alone is not a completed contribution; do not publish it with a proposed status.
+- Compare the proposed code and tests with what shipped. When upstream uses the same approach,
+  say what shipped from the proposal and how it helps users, including equivalent implementations
+  and reused regression checks. Link the proposal and the upstream code. Credit merged commits
+  and co-authorship according to Git history. When upstream takes a different approach, credit
+  the report and describe the upstream fix.
 - Verify dates from the linked sources. Use the merge date for merged work, the release date for
   work shipped without merging the submitted PR, and the confirmed transfer date for transferred
   projects. Use the latest completed contribution date when one row covers multiple contributions.
